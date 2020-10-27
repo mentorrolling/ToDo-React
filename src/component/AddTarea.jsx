@@ -10,7 +10,7 @@ export default function AddTarea({ item, handleChange, handleClick }) {
         aria-label="Recipient's username"
         aria-describedby="button-addon2"
         name="tarea"
-        onChange={handleChange}
+        onChange={handleChange} 
         value={item}
         id="tarea"
         autoComplete="off"
